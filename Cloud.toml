@@ -2,3 +2,6 @@
   buildImage = false
   thinJar = false
 
+[[container.copy.files]]
+sourceFile="./Config.toml"
+target="/home/ballerina/Config.toml"
